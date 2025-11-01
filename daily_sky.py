@@ -1,7 +1,7 @@
 import requests, datetime, math, json, os
 
 # ------------- SETTINGS -------------
-WEBHOOK_URL = "https://discord.com/api/webhooks/XXX/YYY"
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 LAT, LON = 43.7, -79.4     # your location (Toronto example)
 CITY_NAME = "Augustine Heights"
 # -----------------------------------
